@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzrqITQdd5ZKGbiDWlKBTKjHrPLaXWoL2uMQ&usqp=CAU) ;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #8B8982;
+    padding: 2%;
+}
+nav h1 {
+    font-size: 35px;
+    color: black;
+}
+.nav-container a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+    font-weight: bold;
+}
+.home:hover {
+    color: white;
+}
+.contact:hover {
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 25px;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.content img {
+    border-radius: 180px;
+    margin: auto;
+}
+.zzz {
+    line-height: 1.5;
+    padding: 2.5%;
+    margin-left: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.socmed {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 25px;
+    padding: 15px;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.socmed h1 {
+    color: black;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.socmed ul li {
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    padding: 5px 12px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.socmed ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.fb:hover {
+    color: #3b5998;
+}
+.twt:hover {
+    color: #1d9bf0;
+}
+.ig:hover {
+    color: #db04e2;
+}
+.git:hover {
+    color: #2a336e;
+}
